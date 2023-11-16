@@ -30,7 +30,7 @@ public class CreateUserPanel extends javax.swing.JPanel {
     @SuppressWarnings("unchecked")
     
     
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         CreateUserForm = new javax.swing.JLabel();
@@ -122,17 +122,17 @@ public class CreateUserPanel extends javax.swing.JPanel {
                 .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52))
         );
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void nameInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameInputActionPerformed
+    private void nameInputActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
-    }//GEN-LAST:event_nameInputActionPerformed
+    }                                         
 
-    private void ageInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInputActionPerformed
+    private void ageInputActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
-    }//GEN-LAST:event_ageInputActionPerformed
+    }                                        
 
-    private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
+    private void submitActionPerformed(java.awt.event.ActionEvent evt) {                                       
         // TODO add your handling code here:
         User newUser = new User();
         try{
@@ -159,10 +159,10 @@ public class CreateUserPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this, "Fields cannot be Empty.");
         }
         
-    }//GEN-LAST:event_submitActionPerformed
+    }                                      
 
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JLabel CreateUserForm;
     private javax.swing.JLabel age;
     private javax.swing.JTextField ageInput;
@@ -170,5 +170,6 @@ public class CreateUserPanel extends javax.swing.JPanel {
     private javax.swing.JLabel name;
     private javax.swing.JTextField nameInput;
     private javax.swing.JButton submit;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
+
